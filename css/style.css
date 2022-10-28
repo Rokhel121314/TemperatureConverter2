@@ -11,6 +11,7 @@ button {
     background-color:green;
     border-radius:6px !important;;
     border-color:green;
+    color:white;
 }
 .underline {
     text-decoration-line: underline;
