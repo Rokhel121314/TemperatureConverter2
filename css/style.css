@@ -1,0 +1,42 @@
+.content {
+    min-height:100vh;
+}
+
+.sub-content {
+    border:2px solid black;
+    height:100vh;
+    border-radius:20px;
+}
+button {
+    background-color:green;
+    border-radius:6px !important;;
+    border-color:green;
+}
+.underline {
+    text-decoration-line: underline;
+
+}
+
+#temperatureC {
+    width:70px;
+}
+
+#temperatureF {
+    width:70px;
+}
+
+#temperatureCK {
+    width:70px;
+}
+
+#temperatureKC {
+    width:70px;
+}
+
+#temperatureCR {
+    width:70px;
+}
+
+#temperatureRC {
+    width:70px;
+}

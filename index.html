@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- ---------------------Content--------------- -->
+        
+        <div class="row content bg-none">
+            <div class="col-3"></div>
+            <div class="col-sm-6 bg-warning sub-content">
+                <div class="header text-center mt-5 mt-sm-3">
+                    <h2 class="pt-3">TEMPERATURE CONVERTER</h2>
+                </div>
+
+        <!-- ---------------------Celsius to Fahrenheit--------------- -->
+                <div class="row c-f mt-5 mt-sm-4">
+                    <div class="row text-center">
+                        <h5>Celsius to Fahrenheit</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureC" placeholder="0">
+                            <label class="pe-3" for="temperature">°C →</label>
+                            <span class="h6 underline" id="fanswer">0.00</span>
+                            <label class="pe-5" for="temperature">°F</label>
+                            <button onclick="toFahrenheit()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+        <!-- ---------------------Fahrenheit to Celsius--------------- -->
+                <div class="row f-c mt-5 mt-sm-3">
+                    <div class="row text-center">
+                        <h5>Fahrenheit to Celsius</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureF" placeholder="0">
+                            <label class="pe-3" for="temperature">°F →</label>
+                            <span class="h6 underline" id="canswer">0.00</span>
+                            <label class="pe-5" for="temperature">°C</label>
+                            <button onclick="fToCelsius()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+        <!-- ---------------------Celsius to Kelvin--------------- -->
+                <div class="row f-c mt-5">
+                    <div class="row text-center">
+                        <h5>Celsius to Kelvin</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureCK" placeholder="0">
+                            <label class="pe-3" for="temperature">°C →</label>
+                            <span class="h6 underline" id="ckanswer">0.00</span>
+                            <label class="pe-5" for="temperature">°K</label>
+                            <button onclick="toKelvin()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+        <!-- ---------------------Kelvin to Celsius--------------- -->
+                <div class="row f-c mt-5 mt-sm-3">
+                    <div class="row text-center">
+                        <h5>Kelvin to Celsius</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureKC" placeholder="0">
+                            <label class="pe-3" for="temperature">°K →</label>
+                            <span class="h6 underline" id="kcanswer">0.00</span>
+                            <label class="pe-5" for="temperature">°C</label>
+                            <button onclick="kToCelsius()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+        <!-- ---------------------Celsius to Rankine--------------- -->
+                <div class="row f-c mt-5">
+                    <div class="row text-center">
+                        <h5>Celsius to Rankine</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureCR" placeholder="0">
+                            <label class="pe-3" for="temperature">°C →</label>
+                            <span class="h6 underline" id="cranswer">0.00</span>
+                            <label class="pe-5" for="temperature">°R</label>
+                            <button onclick="toRankine()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+        <!-- ---------------------Rankine to Celsius--------------- -->
+                <div class="row f-c mt-5 mt-sm-3">
+                    <div class="row text-center">
+                        <h5>Rankine to Celsius</h5>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <form action="#" method="">
+                            <input type="number" id="temperatureRC" placeholder="0">
+                            <label class="pe-3" for="temperature">°R →</label>
+                            <span class="h6 underline" id="rcanswer">0.00</span>
+                            <label class="pe-5" for="temperature">°C</label>
+                            <button onclick="rToCelsius()">
+                                CONVERT
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
